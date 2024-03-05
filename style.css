@@ -1,0 +1,88 @@
+/*  Projeto consumindo api do via cep  */
+
+
+
+:root {
+    --cor-primeira: #7469B6;
+    --cor-segunda: #AD88C6;
+    --cor-terceira: #E1AFD1;
+    --cor-preto: #272829;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    background-color: var(--cor-preto);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px var(--cor-segunda);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 7px inset var(--cor-segunda);
+    padding: 100px;
+    background-color: var(--cor-primeira);
+    color: #ffff;
+    border-radius: 20px;
+}
+
+.Title {
+    text-align: center;
+    border-bottom: var(--cor-terceira) inset 4px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+#inpBusca {
+    height: 30px !important;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btnBusca {
+    height: 30px !important;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    cursor: pointer;
+}
